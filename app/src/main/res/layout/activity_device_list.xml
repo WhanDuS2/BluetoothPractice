@@ -5,9 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.thejoeunit.www.bluetoothpractice.MainActivity">
+    tools:context="com.thejoeunit.www.bluetoothpractice.DeviceListActivity">
 
     <Button
+        android:id="@+id/scanBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="기기 탐색" />
@@ -18,7 +19,7 @@
         android:layout_height="match_parent"></ListView>
 
     <ListView
-        android:id="@+id/prireDeviceListView"
+        android:id="@+id/pairedDeviceListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"></ListView>
