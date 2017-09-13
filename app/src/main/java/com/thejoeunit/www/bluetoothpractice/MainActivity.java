@@ -20,6 +20,8 @@ public class MainActivity extends BaseActivity {
 
     }
 
+//    주변의 블루투스 기기를 탐색
+
     @Override
     public void setValues() {
 
